@@ -122,7 +122,6 @@ langchain
 lark
 libclang
 lit
-llama
 loguru
 lru-dict
 lxml
