@@ -1,0 +1,621 @@
+/bin/bash: /home/sai/miniconda3/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+
+🌟 Lilypad submitting job stable_diffusion:v0.0.1(red lilly) 🌟
+[0m
+[0m[?25l[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Connecting to smart contract[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Connecting to smart contract[0m
+[0m[K[0m[?25h[0m🔗 Connecting to smart contract
+[0m🔑 Loaded private key for 0x40754bf3654a44fB145242ee6d1A845ef7644d32[0m
+[0m[?25l[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Registering job creator[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Registering job creator[0m
+[0m[K[0m[?25h[0m🔌 Registering job creator
+[0m[?25l[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C[0m
+[0m[K[0m[?25h[0m🧘 Adding mediator 0xcD9379EEDcBb9a077025Fbdf5AE81F1399e43F2C
+[0m[?25l[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Posting offer for stable_diffusion:v0.0.1[0m
+[0m[K[0m[?25h[0m💌 Posting offer for stable_diffusion:v0.0.1
+[0m[?25l[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Scheduling on-chain... Sending deposit of 1 lilETH to contract[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Scheduling on-chain... Sending deposit of 1 lilETH to contract[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Scheduling on-chain... Sending deposit of 1 lilETH to contract[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Scheduling on-chain... Sending deposit of 1 lilETH to contract[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Scheduling on-chain... Sending deposit of 1 lilETH to contract[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Scheduling on-chain... Sending deposit of 1 lilETH to contract[0m
+[0m[K[0m[?25h[0m💼 Scheduling on-chain... Sending deposit of 1 lilETH to contract
+[0m[?25l[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⡀   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠠    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠈     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠂     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⡀      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠠       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠂       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐⠈       ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠂      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐ ⠠      ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⡀     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐  ⠠     ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐   ⠂    ▌[0m Running job...^C
+[0mAborted!
+[0m[0m
+[0m[K[0m
+[1m[36m▐   ⠈    ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠂   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐    ⠠   ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⡀  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠠  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠈ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠂▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⠠▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐       ⡀▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠠ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐      ⠂ ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠈  ▌[0m Running job...[0m
+[0m[K[0m
+[1m[36m▐     ⠂  ▌[0m Running job...^CException ignored in: [0m<module 'threading' from '/usr/lib/python3.10/threading.py'>[0m
+[0mTraceback (most recent call last):
+[0m  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+[0m    [0mlock.acquire()[0m
+[0mKeyboardInterrupt[0m: [0m[0m
+[0m[0m
+[0m[K[0m[?25h[0m
+[0m[K[0m[?25h[0m
+[0m[K[0m[?25h[0m
+[0m[K[0m[?25h[0m
+[0m[K[0m[?25h[0m
+[0m[K[0m[?25h[0m[0m

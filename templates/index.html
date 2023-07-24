@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lilypad Web Interface</title>
+    <style>
+        #loadingAnimation {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            display: none;
+        }
+
+        #loadingAnimation::after {
+            content: '\\';
+            animation: slideBackForth 0.8s infinite;
+        }
+
+        @keyframes slideBackForth {
+            0% { content: '\\'; }
+            50% { content: '/'; }
+            100% { content: '\\'; }
+        }
+
+        #result {
+            display: none;
+        }
+
+        #result.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lilypad Web Interface</h1>
+    <form id="lilypadForm">
+        <label for="template">Select a template:</label>
+        <select name="template" id="template">
+            <option value="stable_diffusion:v0.0.1">stable_diffusion:v0.0.1</option>
+            <option value="fastchat">fastchat</option>
+            <option value="bacals">bacals</option>
+        </select>
+        <br>
+        <label for="params">Enter params:</label>
+        <input type="text" name="params" id="params" required>
+        <br>
+        <button type="submit">Run Lilypad</button>
+    </form>
+
+    <div id="loadingAnimation">
+        <p>Generating...</p>
+    </div>
+
+    <div id="result">
+        <p>Final IPFS link: <a id="ipfsLink" href="#" target="_blank"></a></p>
+        <p>Image Link: <a id="imageLink" href="#" target="_blank"></a></p>
+        <img id="resultImage" src="#" alt="Lilypad Result Image">
+    </div>
+
+    <script>
+        document.getElementById("lilypadForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+
+            const template = formData.get("template");
+            const params = formData.get("params");
+
+            // Show the loading animation
+            document.getElementById("loadingAnimation").style.display = "block";
+
+            // Sending data to the backend
+            fetch("/run_lilypad", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ template, params }),
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error("Lilypad job failed.");
+                }
+            })
+            .then(data => {
+                const ipfsLink = data.ipfs_link;
+                const imageLink = data.image_link;
+                if (ipfsLink) {
+                    // Hide the loading animation
+                    document.getElementById("loadingAnimation").style.display = "none";
+
+                    // Show the result content
+                    document.getElementById("result").classList.add("show");
+                    document.getElementById("ipfsLink").href = ipfsLink;
+                    document.getElementById("ipfsLink").innerText = ipfsLink;
+                    document.getElementById("imageLink").href = imageLink;
+                    document.getElementById("imageLink").innerText = imageLink;
+                    document.getElementById("resultImage").src = imageLink;
+                } else {
+                    document.getElementById("result").innerHTML = "Lilypad job completed, but no IPFS link found for the given params.";
+                }
+            })
+            .catch(error => {
+                console.error(error);
+                document.getElementById("result").innerHTML = "Lilypad job failed.";
+            });
+        });
+    </script>
+</body>
+</html>
