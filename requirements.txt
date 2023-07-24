@@ -219,9 +219,6 @@ rfc3339-validator
 rfc3986-validator
 rlp
 rsa
-ruamel-yaml-conda
-ruamel.yaml
-ruamel.yaml.clib
 safetensors
 scidownl
 scikit-learn
