@@ -28,6 +28,29 @@
         #result.show {
             display: block;
         }
+
+        #loadingImage {
+            display: none;
+        }
+
+        #loadingImage.show {
+            display: block;
+        }
+
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
@@ -53,6 +76,10 @@
     <div id="result">
         <p>Final IPFS link: <a id="ipfsLink" href="#" target="_blank"></a></p>
         <p>Image Link: <a id="imageLink" href="#" target="_blank"></a></p>
+        <div id="loadingImage">
+            <p>Loading image...</p>
+            <div class="loader"></div>
+        </div>
         <img id="resultImage" src="#" alt="Lilypad Result Image">
     </div>
 
@@ -65,7 +92,7 @@
             const template = formData.get("template");
             const params = formData.get("params");
 
-            // Show the loading animation
+            // Show the loading animation for the result
             document.getElementById("loadingAnimation").style.display = "block";
 
             // Sending data to the backend
@@ -87,7 +114,7 @@
                 const ipfsLink = data.ipfs_link;
                 const imageLink = data.image_link;
                 if (ipfsLink) {
-                    // Hide the loading animation
+                    // Hide the loading animation for the result
                     document.getElementById("loadingAnimation").style.display = "none";
 
                     // Show the result content
@@ -96,7 +123,22 @@
                     document.getElementById("ipfsLink").innerText = ipfsLink;
                     document.getElementById("imageLink").href = imageLink;
                     document.getElementById("imageLink").innerText = imageLink;
-                    document.getElementById("resultImage").src = imageLink;
+
+                    // Show the loading animation for the image
+                    document.getElementById("loadingImage").classList.add("show");
+
+                    // Load the image
+                    const image = new Image();
+                    image.src = imageLink;
+
+                    image.onload = function() {
+                        // Hide the loading animation for the image
+                        document.getElementById("loadingImage").classList.remove("show");
+
+                        // Show the image
+                        document.getElementById("resultImage").src = imageLink;
+                        document.getElementById("resultImage").alt = "Lilypad Result Image";
+                    };
                 } else {
                     document.getElementById("result").innerHTML = "Lilypad job completed, but no IPFS link found for the given params.";
                 }
