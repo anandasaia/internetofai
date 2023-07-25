@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-runtime: python
-env: flex
-entrypoint: gunicorn -b :$PORT main:app
-
+runtime: python39
+entrypoint: gunicorn -b :8080 --timeout 60000 main:app
+env_variables:
+  PRIVATE_KEY: "ad136aa42c281f149051733df0d9e6e8280d2dfdb6ed41a726320376b641459d"
 runtime_config:
   operating_system: ubuntu22
 
@@ -27,5 +27,6 @@ manual_scaling:
   instances: 1
 resources:
   cpu: 1
-  memory_gb: 0.5
+  memory_gb: 2
   disk_size_gb: 10
+

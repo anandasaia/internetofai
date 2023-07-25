@@ -1,17 +1,9 @@
-import os
 import subprocess
 import logging
 import re
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-
-# Create a directory to store log files
-log_dir = 'logs'
-os.makedirs(log_dir, exist_ok=True)
-
-# Counter to keep track of the current step
-current_step = 0
 
 @app.route('/')
 def index():
@@ -27,31 +19,19 @@ def run_lilypad():
     command = f"lilypad run --template {template} --params \"{params}\""
 
     try:
-        # Execute the Lilypad command and capture real-time output
-        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        # Execute the Lilypad command and capture output
+        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        stdout, stderr = process.communicate()
 
-        # Create a log file for this set of parameters
-        log_file = os.path.join(log_dir, f"params_{params}.log")
+        # Check if there were any errors
+        if process.returncode != 0:
+            error_msg = stderr.strip()
+            return {'error': error_msg}, 400
 
-        # Read the real-time output and save it to the log file
-        with open(log_file, 'w') as log:
-            for line in process.stdout:
-                # Check if it's a new step
-                step_match = re.match(r'\d+', line)
-                if step_match:
-                    step = int(step_match.group(0))
-                    if step != current_step:
-                        current_step = step
-                        log.write(f"Step {step}:\n")
-                log.write(line)
-
-        # Wait for the command to complete
-        process.wait()
-
-        # Read the log file to extract the final IPFS link
-        ipfs_link = extract_ipfs_link(log_file)
-
-        if ipfs_link:
+        # Find the IPFS link in the stdout
+        ipfs_link_match = re.search(r'https://ipfs.io/ipfs/\S{46}', stdout)
+        if ipfs_link_match:
+            ipfs_link = ipfs_link_match.group(0)
             image_link = f"{ipfs_link}/outputs/image0.png"
             return {'ipfs_link': ipfs_link, 'image_link': image_link}, 200
         else:
@@ -61,14 +41,6 @@ def run_lilypad():
         error_msg = str(e)
         return {'error': error_msg}, 400
 
-def extract_ipfs_link(log_file):
-    # Read the log file to extract the final IPFS link with a 46-character CID
-    with open(log_file, 'r') as log:
-        log_content = log.read()
-        match = re.search(r'https://ipfs.io/ipfs/\S{46}', log_content)
-        if match:
-            return match.group(0)
-    return None
-
 if __name__ == '__main__':
     app.run(debug=True)
+
