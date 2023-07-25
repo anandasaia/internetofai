@@ -10,6 +10,9 @@ app = Flask(__name__)
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
 
+# Counter to keep track of the current step
+current_step = 0
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -33,7 +36,13 @@ def run_lilypad():
         # Read the real-time output and save it to the log file
         with open(log_file, 'w') as log:
             for line in process.stdout:
-                # Save the output to the log file
+                # Check if it's a new step
+                step_match = re.match(r'\d+', line)
+                if step_match:
+                    step = int(step_match.group(0))
+                    if step != current_step:
+                        current_step = step
+                        log.write(f"Step {step}:\n")
                 log.write(line)
 
         # Wait for the command to complete
